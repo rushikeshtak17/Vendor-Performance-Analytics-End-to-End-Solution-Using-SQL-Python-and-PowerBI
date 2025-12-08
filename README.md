@@ -120,7 +120,7 @@ vendor-performance-analysis/
   - Bulk Purchase Savings
   - Performance Heatmaps
 
-![Vendor Performance Dashboard](images/dashboard.png)
+![Vendor Performance Dashboard](images/Vendor-Performance-Analysis.png)
 
 ---
 <h2><a class="anchor" id="how-to-run-this-project"></a>How to Run This Project</h2>
@@ -138,10 +138,10 @@ python scripts/ingestion_db.py
 python scripts/get_vendor_summary.py
 ```
 5. Open and run notebooks:
-   - `notebooks/exploratory_data_analysis.ipynb`
-   - `notebooks/vendor_performance_analysis.ipynb`
+   - `notebooks/Exploratary Data Analysis.ipynb`
+   - `notebooks/Vendor Performance Analysis.ipynb`
 6. Open Power BI Dashboard:
-   - `dashboard/vendor_performance_dashboard.pbix`
+   - `dashboard/Vendor-Performance-Analysis.pbix`
 
 ---
 <h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
@@ -153,10 +153,3 @@ python scripts/get_vendor_summary.py
 - Improve marketing for underperforming vendors
 
 ---
-<h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
-
-**Ayushi Mishra**  
-Data Analyst  
-📧 Email: techclasses0810@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/ayushi-mishra-30813b174/)  
-🔗 [Portfolio](https://www.youtube.com/@techclasses0810/)
