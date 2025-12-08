@@ -61,15 +61,15 @@ vendor-performance-analysis/
 ├── Vendor Performance Report.pdf
 │
 ├── notebooks/                  # Jupyter notebooks
-│   ├── exploratory_data_analysis.ipynb
-│   ├── vendor_performance_analysis.ipynb
+│   ├── Exploratary Data Analysis.ipynb
+│   ├── Vendor Performance Analysis.ipynb
 │
 ├── scripts/                    # Python scripts for ingestion and processing
-│   ├── ingestion_db.py
-│   └── get_vendor_summary.py
+│   ├── csv_to_sqlite_bulk_ingestion.py
+│   └── generate_clean_vendor_summary.py
 │
 ├── dashboard/                  # Power BI dashboard file
-│   └── vendor_performance_dashboard.pbix
+│   └── Vendor-Performance-Analysis.pbix
 ```
 
 ---
@@ -131,11 +131,11 @@ git clone https://github.com/yourusername/vendor-performance-analysis.git
 ```
 3. Load the CSVs and ingest into database:
 ```bash
-python scripts/ingestion_db.py
+python scripts/csv_to_sqlite_bulk_ingestion.py
 ```
 4. Create vendor summary table:
 ```bash
-python scripts/get_vendor_summary.py
+python scripts/generate_clean_vendor_summary.py
 ```
 5. Open and run notebooks:
    - `notebooks/Exploratary Data Analysis.ipynb`
